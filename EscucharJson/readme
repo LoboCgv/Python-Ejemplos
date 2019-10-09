@@ -1,0 +1,3 @@
+Ene ste ejemplo se trabajará con Flask con el objeto de escuchar cuando llegue un Request con un Json para trabajar.
+Adicionalmente se configurará un motor de datos mysql para escribir datos de coordenadas.
+Por último se creará un archivo php que enviará un archivo json al servidor flask para poder probar.

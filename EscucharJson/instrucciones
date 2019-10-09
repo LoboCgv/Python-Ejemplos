@@ -1,0 +1,18 @@
+instrucciones
+1.- Instalar virtualenv
+pip install virtualenv
+2.- levantar un nuevo ambiente virtual
+#en la carpeta de trabajo iniciar consola.
+python3 -m venv EscucharJson
+#donde EscucharJson es el nombre la carpeta destino del ambiente
+cd EscucharJson
+#en Windows para levantar un ambiente virtual debemos ejecutar el batcj Scripts\activate.bat
+Scripts\activate.bat
+#con esto la terminal cambia y podemos instalar las dependencias necesarias
+3.- Instalar Flask
+pip install flask
+4.- instalar conector de mysql
+python -m pip install mysql-connector
+#una vez realizado esto es necesario crear el archivo app.py, mientras este activo en #enviroment no habrá problemas para hacerlo correr.
+#flask se levanta con el comando
+flask run# que implica que levanta un servidor en escucha 127.0.0.1:5000
