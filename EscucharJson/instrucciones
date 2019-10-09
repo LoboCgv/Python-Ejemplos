@@ -16,3 +16,4 @@ python -m pip install mysql-connector
 #una vez realizado esto es necesario crear el archivo app.py, mientras este activo en #enviroment no habrá problemas para hacerlo correr.
 #flask se levanta con el comando
 flask run# que implica que levanta un servidor en escucha 127.0.0.1:5000
+5.- cargar mysql con la base de datos flask_coordenadas con el script flask_coordenadas
